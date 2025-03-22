@@ -311,6 +311,9 @@ form {
 }
 
 @media(max-width:991px) {
+    .container {
+        max-width: 100%;
+    }
     .menu {
         padding: 30px;
     }
@@ -355,7 +358,7 @@ form {
         text-align: center;
         margin-bottom: 15px;
     }
-    .heaver-txt h1 {
+    .header-txt h1 {
         font-size: 90px;
         line-height: 100px;
     }
